@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+  cout << "Hello World" <<endl
+  cout << "I am Jobaer Hossain." <<endl;
+  cout << "Welcome to The AirTec Software Solution Inc." <<endl;
+  
+  int num_one;
+  int num_two;
+  int sum;
+  
+  cout << endl <<"Enter a number ;
+  cin >> num_one;
+  
+  cout << "Enter a number again ";
+  cin >> num_two;
+  
+  sum = num_one + num_two;
+  cout <<"The sum of " << num_one <<" and " << num_two <<" is " <<sum;
+  
+  return 0;
+ }
